@@ -117,12 +117,14 @@
         text-align: center;
     }
 
-    .hobbies .title::before {
-        bottom: -22px;
+    .project .title::before {
+        bottom: -8px;
     }
     
-    .hobbies .title::after {
-        bottom: -40px;
+    .project .title::after {
+        bottom: -26px;
         padding: 0;
     }
+
+
 }
