@@ -1,18 +1,4 @@
 
-    // const e = document.querySelector.bind(document);
-    // const ee = document.querySelectorAll.bind(document);
-    // const header = e('.header');
-    // const btnMenu = e('.header-menu');
-    // const btnMenuElement = e('.menu-bars');
-    // const navHeader = e('.navbar');
-    // window.onscroll = function() {
-    //     if(this.scrollY > 20) {
-    //         header.classList.add('sticky')
-    //     } else {
-    //         header.classList.remove('sticky')
-    //     }
-        
-    // }
 
     $(window).scroll(() => {
         if(window.scrollY > 20) {
@@ -124,7 +110,7 @@
                 })
     
                 $(rule.selector).focus(() => {
-                    $(element).innerText = '';
+                    $(element).html('');;
                     $(element).toggleClass("active", false);
                     $(rule.selector).toggleClass("active", false);
                 })
